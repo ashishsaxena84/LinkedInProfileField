@@ -1,0 +1,14 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+?>
+<div class="field linkedin_profile required">
+   <label class="label" for="linkedin_profile">
+       <span><?=$block->escapeHtml(__('Linkedin Profile')) ?></span>
+   </label>
+   <div class="control">
+       <input type="text" name="linkedin_profile" id="linkedin_profile" value="" title="<?=$block->escapeHtmlAttr(__('Linkedin Profile')) ?>"  class="input-text" data-validate="{'required':true, 'maxlength':250, 'url': true}">
+   </div>
+</div>
